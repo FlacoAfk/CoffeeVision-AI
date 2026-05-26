@@ -1,0 +1,41 @@
+[project]
+name = "CoffeeVisionAI"
+version = "1.0.0"
+description = "Commercial coffee disease detection system with dual classification (leaf diseases + grain quality)"
+authors = [
+    { name = "CoffeeVision AI Team" },
+]
+license = { text = "Proprietary" }
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "Flask>=3.0.0",
+    "Flask-Cors>=4.0.0",
+    "Flask-SQLAlchemy>=3.1.0",
+    "Flask-Marshmallow>=0.15.0",
+    "marshmallow-sqlalchemy>=0.30.0",
+    "marshmallow-dataclass>=8.6.0",
+    "Flask-PyMongo>=2.3.0",
+"PyMongo>=4.6.0",
+    "tensorflow>=2.15.0",
+    "keras>=2.15.0",
+    "Pillow>=10.2.0",
+    "numpy>=1.24.0",
+    "scikit-learn>=1.4.0",
+    "opencv-python>=4.9.0",
+    "requests>=2.31.0",
+    "python-dotenv>=1.0.0",
+    "gunicorn>=21.2.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/coffee-vision-ai"
+Repository = "https://github.com/coffee-vision-ai/coffee-vision-ai"
+
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[tool.setuptools.packages.find]
+where = ["."]
+exclude = ["tests*", "training*"]

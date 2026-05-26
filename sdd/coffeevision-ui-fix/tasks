@@ -1,0 +1,16 @@
+# Tasks: coffeevision-ui-fix
+
+Decision needed before apply: No
+Chained PRs recommended: No
+Chain strategy: size-exception
+400-line budget risk: Low
+
+## Phase 1: Configuration Fixes
+
+- [ ] 1.1 Fix `vite.config.js` — change proxy target from `http://localhost:5002` to `http://localhost:5001`
+- [ ] 1.2 Fix `PredictionResult.jsx` — change `'Danhado'` to `'Dañado'` in `formatClassName()`
+
+## Phase 2: Verification
+
+- [ ] 2.1 Run `npm run build` to confirm the frontend builds without errors
+- [ ] 2.2 Verify proxy responds on both `/api` endpoints via curl

@@ -1,0 +1,18 @@
+.analysis-page {
+  min-height: 100vh;
+  padding-bottom: var(--space-2xl);
+}
+
+.analysis-page__reset {
+  width: 100%;
+  margin-top: var(--space-md);
+}
+
+.analysis-page__error {
+  margin-top: var(--space-md);
+  padding: var(--space-sm) var(--space-md);
+  background-color: #fde8e8;
+  color: var(--color-danger);
+  border-radius: var(--radius-sm);
+  font-size: 0.85rem;
+}

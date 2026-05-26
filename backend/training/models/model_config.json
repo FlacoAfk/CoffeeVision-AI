@@ -1,0 +1,30 @@
+{
+  "leaf": {
+    "custom_cnn": {
+      "weight": 3.0,
+      "enabled": true
+    },
+    "resnet50": {
+      "weight": 0.5,
+      "enabled": true
+    },
+    "efficientnetb0": {
+      "weight": 1.5,
+      "enabled": true
+    }
+  },
+  "grain": {
+    "custom_cnn": {
+      "weight": 0.5,
+      "enabled": true
+    },
+    "resnet50": {
+      "weight": 4.0,
+      "enabled": true
+    },
+    "efficientnetb0": {
+      "weight": 1.0,
+      "enabled": true
+    }
+  }
+}

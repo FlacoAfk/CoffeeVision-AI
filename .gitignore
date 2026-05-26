@@ -1,0 +1,43 @@
+# Modelos entrenados (muy pesados para Git)
+training/models/
+*.keras
+
+# Entorno virtual
+backend/.venv-tf/
+.venv/
+
+# Datasets locales
+training/datasets/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.eggs/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+training/monitor_v5*.log
+training/train_v5_output.log
+training/train_v5_error.log
+
+# Kaggle
+kaggle.json
+*.zip
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*

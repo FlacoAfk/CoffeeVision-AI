@@ -1,0 +1,12 @@
+# Proposal: coffeevision-ui-fix
+
+## Intent
+Fix two UI configuration issues: proxy target port mismatch and a typo in the prediction label display.
+
+## Scope
+- **vite.config.js**: Change proxy target from `localhost:5002` to `localhost:5001`
+- **PredictionResult.jsx**: Change 'Danhado' to 'Dañado' in the label formatter
+- **Verification**: Build frontend and confirm proxy endpoints respond
+
+## Approach
+Two atomic config/data fixes. No architectural changes. Verify with `npm run build` and curl against the proxy paths.

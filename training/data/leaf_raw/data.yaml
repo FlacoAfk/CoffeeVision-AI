@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 14
+names: ['DeficienciaNutricional-Boro', 'DeficienciaNutricional-Calcio', 'DeficienciaNutricional-Fosforo', 'DeficienciaNutricional-Hierro', 'DeficienciaNutricional-Magnesio', 'DeficienciaNutricional-Manganeso', 'DeficienciaNutricional-Nitrogeno', 'DeficienciaNutricional-Potasio', 'Enfermedad-Antracnosis', 'Enfermedad-Mancha-de-hierro', 'Enfermedad-Roya', 'Plaga-AranaRoja', 'Plaga-Minador', 'Sanas']
+
+roboflow:
+  workspace: iot-proyecto
+  project: hojas-de-cafe-enfermedades-obje
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/iot-proyecto/hojas-de-cafe-enfermedades-obje/dataset/3
