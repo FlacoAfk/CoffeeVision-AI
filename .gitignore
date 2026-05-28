@@ -1,6 +1,14 @@
-# Modelos entrenados (muy pesados para Git)
-training/models/
-*.keras
+# Modelos entrenados - versiones anteriores excluidas
+training/models/grain_custom_cnn/
+training/models/grain_efficientnetb0/
+training/models/grain_resnet50/
+training/models/v2_leaf_reference/
+training/models/v3/
+training/models/v5/
+
+# Resnet50 modelos son >100MB, no caben en GitHub sin LFS
+**/leaf_resnet50.keras
+**/grain_resnet50.keras
 
 # Entorno virtual
 backend/.venv-tf/

@@ -1,0 +1,12 @@
+{
+  "val_accuracy": 0.9083094596862793,
+  "test_accuracy": 0.9228571653366089,
+  "num_classes": 2,
+  "class_names": [
+    "Sanas",
+    "Enfermedad-Roya"
+  ],
+  "train_images": 1630,
+  "val_images": 349,
+  "test_images": 350
+}

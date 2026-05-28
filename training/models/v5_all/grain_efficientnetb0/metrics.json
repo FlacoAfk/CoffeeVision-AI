@@ -1,0 +1,9 @@
+{
+  "val_accuracy": 1.0,
+  "test_accuracy": 0.9982993006706238,
+  "num_classes": 2,
+  "class_names": [
+    "Sano",
+    "Danado"
+  ]
+}

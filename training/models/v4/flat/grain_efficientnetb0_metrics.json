@@ -1,0 +1,12 @@
+{
+  "val_accuracy": 1.0,
+  "test_accuracy": 1.0,
+  "num_classes": 2,
+  "class_names": [
+    "Sano",
+    "Danado"
+  ],
+  "train_images": 732,
+  "val_images": 157,
+  "test_images": 157
+}
